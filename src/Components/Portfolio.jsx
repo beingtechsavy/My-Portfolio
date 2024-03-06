@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/dog.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Dog with a laptop on a desk";
 
 /**
  * Project list
@@ -31,28 +31,24 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "Revibe!",
+    description: "A Productive Pomodoro Timer with a motivational quote feature",
+    url: "https://github.com/beingtechsavy/pomodoro-timer",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "Quiver",
+    description: "Real time Messaging app build using Socketjs and Nodejs",
+    url: "https://github.com/beingtechsavy/Quiver",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    title: "Tech&Talk",
+    description: "Youtube Podcasting channel for tech enthusiasts",
+    url: "https://www.youtube.com/channel/UCH8HjUmaj030r1K5DZb7gmQ",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "Cloud Computing Blogs",
+    description: "My blogs on Hashnode about Cloud Computing",
+    url: "https://hashnode.com/@beingtechsavy",
   },
 ];
 
