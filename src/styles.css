@@ -6,6 +6,9 @@
 
 html,
 body {
+
+  scroll-behavior: smooth;
+
   font-family: "Montserrat", sans-serif;
   height: 100%;
   margin: 0;
@@ -124,4 +127,31 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.section.slideInLeft {
+  animation: slideInLeft 1s ease-in-out;
+}
+
+/* animate the scroll down button */.scroll-down-button {
+  animation: scrollDownAnimation 1s infinite alternate;
+}
+
+@keyframes scrollDownAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
 }
